@@ -1,0 +1,155 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon {
+    width: 8%;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    margin-bottom: 50px;
+    font-family: "Cinzel", serif;
+    text-align: center;
+}
+
+.header-title {
+    color: #5C5C5C;
+    text-decoration: underline;
+}
+
+.header-name {
+    font-family: "Cinzel", serif;
+    text-decoration: underline;
+}
+
+.content-pic1 {
+    max-width: 100%;
+    height: auto;
+}
+
+.content {
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.content-hdr {
+    font-family: "Cinzel", serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.content-hdr:hover {
+    color: #5C5C5C;
+}
+
+.featured-h {
+    text-align: center;
+    color: #E9967A;
+}
+
+.featured-pic {
+    margin-bottom: 30px;
+}
+
+.featured-text {
+    text-align: center;
+    color: #E9967A;
+}
+
+.text-item {
+    margin-bottom: 10px;
+}
+
+.text-item {
+    text-align: center;
+    font-family: "Cinzel", serif;
+}
+
+@media screen and (min-width:450px) {
+    .header-name {
+        font-family: "Cinzel", serif;
+    }
+    .text-item {
+        font-size: 6vm;
+    }
+    .featured-text {
+        font-size: 4vm;
+        font-family: "Cinzel", serif;
+        color: #E9967A;
+    }
+    .featured-pic {
+        width: 100%;
+    }
+    .header-title {
+        color: #5C5C5C;
+    }
+    .content-hdr:hover {
+        color: #5C5C5C;
+    }
+    .featured-h {
+        color: #E9967A;
+    }
+}
+
+@media screen and (min-width:720px) {
+    .body {
+        margin: 30px 130px 30px 130px;
+    }
+    .header-text {
+        font-family: "Cinzel", serif;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+    .header-name {
+        text-align: right;
+        font-family: "Cinzel", serif;
+    }
+    .header-title {
+        color: #5C5C5C;
+    }
+    .content {
+        justify-content: center;
+        text-align: center;
+    }
+    .content-pic1 {
+        max-width: 100%;
+        height: 270px;
+    }
+    .responsive-img {
+        width: 100%;
+    }
+    .featured {
+        display: flex;
+    }
+    .featured-h {
+        color: #E9967A;
+    }
+    .featured-text {
+        color: #E9967A;
+    }
+    .content-hdr {
+        text-align: center !important;
+        font-family: "Cinzel", serif;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .content-hdr:hover {
+        color: #5C5C5C;
+    }
+    .featured-pic {
+        margin: 28px 20px 28px 20px;
+    }
+}
